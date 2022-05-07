@@ -1,4 +1,6 @@
 import Config from '../config/config'
-export const getConfig = () =>{
+import { IConfig } from '../config/config.type';
+
+export const getConfig = (): IConfig =>{
     return Config;
 }
